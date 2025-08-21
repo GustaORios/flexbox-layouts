@@ -78,6 +78,7 @@ h2 {
 }
 
 .homepage-content {
+    display: flex;
     margin: 5px;
     width: auto;
     min-height: 75vh;
