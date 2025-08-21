@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+
+.logo {
+    display: inline-block;
+    background-color: white;
+}
+
+header nav>a img {
+    width: 32px;
+    height: auto;
+}
+
+header nav>a {
+    display: flex;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+header nav ul,
+header nav ul li {
+    display: flex;
+}
+
+
+.navlink:link,
+.navlink:visited {
+    color: aqua;
+}
+
+.navlink:hover {
+    color: orange
+}
+
+.navlink:active {
+    color: green;
+}
+
+.navlink[href] #current_page {
+    color: aquamarine;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    padding-bottom: 45px;
+}
+
+.homepage-content {
+    margin: 5px;
+    width: auto;
+    min-height: 75vh;
+    padding: 20px;
+    border: 2px solid #c74949;
+}
+
+/*----------- Toronto --------- */
+
+#toronto {
+    overflow: hidden;
+}
+
+#toronto img {
+    float: left;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+}
+
+
+/*----------- Vancouver --------- */
+#vancouver {
+    overflow: hidden;
+}
+
+#vancouver img {
+    float: right;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+}
+
+/*----------- Montreal --------- */
+
+#montreal-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 7px;
+    padding: 20px;
+    min-height: 75vh;
+    border: 2px solid #c74949;
+    gap: 20px;
+}
+
+.image1 {
+    display: flex;
+}
+
+.image2 {
+    display: flex;
+}
+
+.montrealText {
+    display: flex;
+}
+
+/* ------- Other Cities ------- */
+
+.homepage-container {
+    display: flex;
+    height: 75vh;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.indice {
+    text-align: center;
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+
+.indice ul {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.indice li {
+    padding-top: 5px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.indice a {
+    text-decoration: none;
+    color: #333;
+}
+
+.images {
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    background: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    height: 20vh;
+    color: white;
+    background-color: #000000;
+}
+
+footer nav>a {
+    display: flex;
+    vertical-align: middle;
+}
+
+footer nav ul {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#footerLink {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-size: x-large;
+}
+
+p {
+    font-size: 35px;
+}
+
+footer p {
+    font-size: small;
+}
