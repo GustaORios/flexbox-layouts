@@ -186,6 +186,7 @@ h2 {
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 
 /* footer */
